@@ -1,8 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import coverTopAsset from "../assets/cover-top.png.asset.json";
-import coverBottom from "../assets/cover-bottom.jpg";
+import coverBottomAsset from "../assets/cover-bottom.png.asset.json";
 
 const coverTop = coverTopAsset.url;
+const coverBottom = coverBottomAsset.url;
 
 const TITLE = "Der blinde Fleck – Eine Satire über Supervision, Therapeuten­bewertung und Machtgefälle";
 const DESCRIPTION =
@@ -147,7 +148,7 @@ function Index() {
         <figure className="mt-20">
           <img
             src={coverBottom}
-            alt="Verlassener Therapieraum im Abendlicht – Schlussbild der Novelle"
+            alt="Blick aus dem Fenster auf einen regennassen Parkplatz – Schlussbild der Novelle"
             width={1792}
             height={1024}
             loading="lazy"
