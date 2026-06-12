@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import coverTop from "../assets/cover-top.jpg";
+import coverTopAsset from "../assets/cover-top.png.asset.json";
 import coverBottom from "../assets/cover-bottom.jpg";
+
+const coverTop = coverTopAsset.url;
 
 const TITLE = "Der blinde Fleck – Eine Satire über Supervision, Therapeuten­bewertung und Machtgefälle";
 const DESCRIPTION =
@@ -48,12 +50,12 @@ function Index() {
   return (
     <main className="min-h-screen bg-[#1a1512] text-[#e8ddd1]">
       <article className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
-        <figure className="mx-auto mb-14 w-full max-w-md">
+        <figure className="mx-auto mb-14 w-full max-w-2xl">
           <img
             src={coverTop}
-            alt="Sessel im Halbdunkel – Sinnbild für den blinden Fleck in der Psychotherapie"
-            width={1280}
-            height={1280}
+            alt="Therapiesitzung am Fenster – Sinnbild für Supervision, Machtgefälle und den blinden Fleck in der Psychotherapie"
+            width={1369}
+            height={731}
             className="h-auto w-full rounded-sm shadow-2xl shadow-black/60"
           />
         </figure>
