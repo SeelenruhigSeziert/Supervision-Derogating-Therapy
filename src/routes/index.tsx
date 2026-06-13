@@ -76,9 +76,6 @@ function Index() {
 
         <div className="space-y-6 font-serif text-lg leading-relaxed text-[#d8ccbd]">
           <p>
-            Die Supervision
-          </p>
-          <p>
             Ein Montag im Herbst. Es regnet, es ist grau, schwüle 19 Grad die sich anfühlen wie 23.
           </p>
           <p>
