@@ -65,10 +65,6 @@ function Index() {
           <h1 className="font-serif text-4xl leading-tight sm:text-5xl">
             Die Supervision
           </h1>
-          <p className="mt-4 font-serif text-lg italic text-[#b8a896]">
-            Über Therapeutenbewertung, Machtgefälle und den blinden Fleck
-            im Behandlungszimmer
-          </p>
         </header>
 
         <div className="space-y-6 font-serif text-lg leading-relaxed text-[#d8ccbd]">
