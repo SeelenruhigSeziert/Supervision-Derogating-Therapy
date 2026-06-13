@@ -49,7 +49,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="min-h-screen bg-[#1a1512] text-[#e8ddd1]">
+    <main className="min-h-screen bg-[#1a1512] text-[#d4c8b8]">
       <article className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
         <figure className="mx-auto mb-14 w-full max-w-2xl">
           <img
@@ -67,7 +67,7 @@ function Index() {
           </h1>
         </header>
 
-        <div className="space-y-6 font-serif text-lg leading-relaxed text-[#d8ccbd]">
+        <div className="space-y-6 font-serif text-lg leading-relaxed text-[#c4b8a8]">
           <p>
             Ein Montag im Herbst. Es regnet, es ist grau, schwüle 19 Grad die sich anfühlen wie 23.
           </p>
@@ -391,7 +391,7 @@ function Index() {
             loading="lazy"
             className="h-auto w-full rounded-sm shadow-2xl shadow-black/60"
           />
-          <figcaption className="mt-8 text-center text-xs normal-case tracking-[0.25em] text-[#8a7560]">
+          <figcaption className="mt-8 text-center text-xs normal-case tracking-[0.25em] text-[#7a6550]">
             Satire. Alle Figuren und Handlungen sind frei erfunden. Etwaige Ähnlichkeiten mit lebenden Personen oder realen Ereignissen sind rein zufällig.
           </figcaption>
         </figure>
