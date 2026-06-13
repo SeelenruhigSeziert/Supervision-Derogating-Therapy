@@ -62,9 +62,6 @@ function Index() {
         </figure>
 
         <header className="mb-10 text-center">
-          <p className="mb-4 text-xs uppercase tracking-[0.3em] text-[#a08a72]">
-            Eine Novelle · Satire
-          </p>
           <h1 className="font-serif text-4xl leading-tight sm:text-5xl">
             Die Supervision
           </h1>
