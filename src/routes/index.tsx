@@ -391,7 +391,7 @@ function Index() {
             loading="lazy"
             className="h-auto w-full rounded-sm shadow-2xl shadow-black/60"
           />
-          <figcaption className="mt-3 text-center text-xs normal-case tracking-[0.25em] text-[#8a7560]">
+          <figcaption className="mt-8 text-center text-xs normal-case tracking-[0.25em] text-[#8a7560]">
             Satire. Alle Figuren und Handlungen sind frei erfunden. Etwaige Ähnlichkeiten mit lebenden Personen oder realen Ereignissen sind rein zufällig.
           </figcaption>
         </figure>
